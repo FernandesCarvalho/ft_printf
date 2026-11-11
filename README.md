@@ -1,14 +1,33 @@
 *This project has been created as part of the 42 curriculum by fercarva.*
 
-# ft_printf
+<h1 align="center">🖨️ ft_printf</h1>
 
-> Because `ft_putnbr()` and `ft_putstr()` aren't enough.
+---
 
-![language](https://img.shields.io/badge/language-C-blue)
-![norm](https://img.shields.io/badge/norminette-passing-brightgreen)
-![school](https://img.shields.io/badge/42-Porto-black)
+<p align="center">
+My second C project: <code>printf()</code> rebuilt from scratch with variadic arguments.<br>
+A <b>42 Porto</b> project.
+</p>
 
-**Quick links:** [Description](#description) · [Instructions](#instructions) · [Conversions](#supported-conversions) · [How it works](#how-it-works) · [Algorithm and data structure](#algorithm-and-data-structure) · [Resources](#resources)
+<p align="center">
+  <img alt="42 Porto" src="https://img.shields.io/badge/42-Porto-000000">
+  <img alt="language C" src="https://img.shields.io/badge/language-C-1f5fa8">
+  <img alt="conversions 9" src="https://img.shields.io/badge/conversions-9-4c1">
+</p>
+
+---
+
+## 🧭 Quick navigation
+
+| I want to see... | Go to |
+| --- | --- |
+| How to build and use it | [⚙️ Build and use](#instructions) |
+| Which conversions are supported | [📋 Supported conversions](#supported-conversions) |
+| How the function works step by step | [🔄 How it works](#how-it-works) |
+| Why this algorithm and these types | [🧠 Algorithm and data structure](#algorithm-and-data-structure) |
+| How to test it | [🧪 Testing](#testing) |
+| Classic references | [📚 Resources](#resources) |
+| How AI was used in this project | [🤖 AI usage](#how-ai-was-used) |
 
 ---
 
