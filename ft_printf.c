@@ -6,11 +6,16 @@
 /*   By: fercarva <fercarva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 17:42:37 by fercarva          #+#    #+#             */
-/*   Updated: 2026/11/10 00:25:26 by fercarva         ###   ########.fr       */
+/*   Updated: 2026/11/11 18:13:17 by fercarva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
+int	print_char(int c)
+{
+	return (write(1, &c, 1));
+}
 
 int	validate_format(char c, va_list args)
 {
@@ -31,7 +36,7 @@ int	validate_format(char c, va_list args)
 		count += print_unsign(va_arg(args, unsigned int));
 	else if (c == 'x')
 		count += print_hexa(va_arg(args, unsigned int), "0123456789abcdef");
-	else if (c =='X')
+	else if (c == 'X')
 		count += print_hexa(va_arg(args, unsigned int), "0123456789ABCDEF");
 	return (count);
 }
